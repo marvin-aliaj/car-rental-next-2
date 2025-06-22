@@ -25,7 +25,7 @@ export default function FeaturedCars() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {isLoading
-            ? Array(8)
+            ? Array(6)
                 .fill(0)
                 .map((_, index) => (
                   <div
@@ -53,7 +53,7 @@ export default function FeaturedCars() {
                     </div>
                   </div>
                 ))
-            : cars?.slice(0, 8)?.map((car) => (
+            : cars?.slice(0, 6)?.map((car) => (
                 <div key={car.id} className="md:flex justify-center">
                   <CarCard car={car} enableHover={true} />
                 </div>

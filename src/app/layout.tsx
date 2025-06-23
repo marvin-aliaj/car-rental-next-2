@@ -11,7 +11,10 @@ const oswald = Oswald({
 export const metadata: Metadata = {
   title: "Wemis - Rent. Ride. Enjoy.",
   description:
-    "Find and book your perfect rental car with Wemis. Choose from our wide selection of vehicles at competitive prices with exceptional service."
+    "Discover your ideal rental car with Wemis. Browse our diverse fleet of vehicles, enjoy great rates, and experience top-notch customer service every step of the way.",
+  icons: {
+    icon: "/logo.svg",
+  },
 };
 
 export default function RootLayout({

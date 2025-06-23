@@ -86,7 +86,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center lowercase">
                 <i className="fas fa-envelope mr-3"></i>
-                <span>reservation@goldcarsalbania.com</span>
+                <span>reservation@wemis.com</span>
               </li>
               <li className="flex items-center">
                 <i className="fas fa-clock mr-3"></i>

@@ -69,7 +69,7 @@ const ContactPage = () => {
 
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 text-primary mr-3" />
-                  <span>reservation@goldcarsalbania.com</span>
+                  <span>reservation@wemis.com</span>
                 </div>
 
                 <div className="flex items-center">

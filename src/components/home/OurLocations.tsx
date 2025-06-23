@@ -1,4 +1,3 @@
-"use client";
 import Map from "../map";
 import {
   faPlaneDeparture,

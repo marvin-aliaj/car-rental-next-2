@@ -1,5 +1,3 @@
-"use client";
-
 import CarCard from "@/components/cars/CarCard";
 import { FaGasPump, FaSuitcase, FaUserFriends } from "react-icons/fa";
 import { GiGearStickPattern } from "react-icons/gi";

@@ -1,5 +1,3 @@
-
-
 import Image from "next/image";
 
 export default function BrandsRibbon() {
@@ -13,12 +11,12 @@ export default function BrandsRibbon() {
         {id: "hyundai", url: "/hyundai.svg", height: 50, width: 90},
     ]
     return (
-        <section className="flex overflow-x-auto items-center justify-around w-full h-24 bg-neutral-200 gap-10 px-10">
+        <section className="flex overflow-x-auto overflow-y-hidden items-center justify-around w-full h-24 bg-neutral-200 gap-10 px-10">
             {carBrands.map((brand) => (
                 <Image
                     key={brand.id}
                     src={brand.url}
-                    alt="Car"
+                    alt={brand.id}
                     width={brand.width}
                     height={brand.height}
                     className="object-contain"

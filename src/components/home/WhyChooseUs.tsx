@@ -1,4 +1,3 @@
-"use client";
 import { FaDollarSign, FaHeadset, FaMapMarkerAlt } from "react-icons/fa";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import Link from "next/link";

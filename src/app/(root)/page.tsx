@@ -9,6 +9,7 @@ import { useStore } from "@/store/useStore";
 import { getCars } from "@/lib/actions/rental.actions";
 import { toast } from "sonner";
 import { useEffect } from "react";
+import BrandsRibbon from "@/components/layout/BrandsRibbon";
 
 export default function Home() {
   const setGlobalCars = useStore((state) => state.setCars);
@@ -33,9 +34,9 @@ export default function Home() {
       <ExtraInfo />
       <FeaturedCars />
       <WhyChooseUs />
-      {/*<Testimonials />*/}
       <OurLocations />
       <FAQ />
+      <BrandsRibbon/>
     </>
   );
 }

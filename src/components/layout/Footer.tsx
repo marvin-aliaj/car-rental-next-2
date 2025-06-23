@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
@@ -9,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <div>
             <h3 className="font-bold text-white text-lg mb-4">
-              Gold Car Rental
+              Wemis Agency
             </h3>
             <p className="text-neutral-400 mb-4">
               Providing quality car rentals since 2010. Our mission is to offer
@@ -17,24 +16,24 @@ export default function Footer() {
               every journey.
             </p>
             <div className="flex space-x-3">
-              <a
+              <Link
                 href="#"
                 className="text-neutral-400 hover:text-white transition-colors duration-300"
               >
                 <FaFacebook />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="text-neutral-400 hover:text-white transition-colors duration-300"
               >
                 <FaTwitter />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="text-neutral-400 hover:text-white transition-colors duration-300"
               >
                 <FaInstagram />
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -87,7 +86,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center lowercase">
                 <i className="fas fa-envelope mr-3"></i>
-                <span>reservation@goldcarsalbania.com</span>
+                <span>reservation@wemis.com</span>
               </li>
               <li className="flex items-center">
                 <i className="fas fa-clock mr-3"></i>
@@ -99,7 +98,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-neutral-700 flex flex-col md:flex-row justify-between items-center">
           <p className="text-neutral-400 text-sm">
-            &copy; {new Date().getFullYear()} Gold Car Rental. All rights
+            &copy; {new Date().getFullYear()} Wemis Agency. All rights
             reserved.
           </p>
           <div className="mt-4 md:mt-0 flex flex-wrap gap-4 text-sm text-neutral-400">

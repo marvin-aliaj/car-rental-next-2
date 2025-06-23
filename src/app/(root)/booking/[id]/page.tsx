@@ -135,7 +135,12 @@ export default function Booking() {
       customerEmail: customerInfo.email,
       customerPhone: customerInfo.phone,
       location: selectedLocationId,
-      carId: carId,
+      car: {
+        id: carId,
+        brand: car.brand,
+        model: car.model,
+        year: car.year,
+      },
       startDate: format(dateRange.from, "yyyy-MM-dd HH:mm:ss"),
       endDate: format(dateRange.to, "yyyy-MM-dd HH:mm:ss"),
       calculatedPrice: totalPrice * 100, // Convert to string as required by the schema
@@ -147,9 +152,11 @@ export default function Booking() {
         toast.success("Booking created successfully");
         router.push(`/cars`);
       })
-      .catch(() => {
-        toast.error("Error occurred!");
-      });
+        .catch((e) => {
+          toast.error(
+              e.message.includes("available") ? e.message : "An Error Occurred",
+          );
+        });
   };
 
   if (cars.length === 0) {

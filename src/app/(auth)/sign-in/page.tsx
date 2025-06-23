@@ -78,13 +78,8 @@ export default function Booking() {
           <header className="flex flex-col gap-5 md:gap-8">
             <div className="flex items-center space-x-2 cursor-pointer group">
               <div className="flex items-center cursor-pointer">
-                <img
-                  src="/car-rental-icon.png"
-                  alt="Car"
-                  className="h-15 object-contain"
-                />
                 <span className="text-2xl font-bold text-gold">
-                  Gold Car Rent
+                  Wemis Agency
                 </span>
               </div>
             </div>

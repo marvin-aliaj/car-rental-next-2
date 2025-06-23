@@ -1,5 +1,3 @@
-"use client";
-
 import { timeSlots } from "@/lib/utils";
 import {
   Select,

@@ -9,12 +9,9 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  title: "Gold Car Rent - Find and Book Your Perfect Car",
+  title: "Wemis - Rent. Ride. Enjoy.",
   description:
-    "Find and book your perfect rental car with Gold Car Rent. Choose from our wide selection of vehicles at competitive prices with exceptional service.",
-  icons: {
-    icon: "/car-rental-icon.png",
-  },
+    "Find and book your perfect rental car with Wemis. Choose from our wide selection of vehicles at competitive prices with exceptional service."
 };
 
 export default function RootLayout({

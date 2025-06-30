@@ -53,11 +53,11 @@ export default function FeaturedCars() {
                     </div>
                   </div>
                 ))
-            : cars?.slice(0, 6)?.map((car) => (
+            : cars.length ? cars?.slice(0, 6)?.map((car) => (
                 <div key={car.id} className="md:flex justify-center">
                   <CarCard car={car} enableHover={true} />
                 </div>
-              ))}
+              )): null}
         </div>
 
         <div className="mt-12 text-center">

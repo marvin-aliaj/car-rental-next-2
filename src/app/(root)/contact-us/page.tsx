@@ -35,23 +35,9 @@ const ContactPage = () => {
                 <div className="flex items-start">
                   <MapPin className="h-5 w-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
                   <div>
-                    <h3 className="font-medium">Tirana Airport (TIA)</h3>
-                    <p className="text-sm">Rinas, Tirana 1504, Albania</p>
-                  </div>
-                </div>
-
-                <div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-white"></div>
-                <div className="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-white"></div>
-                <div className="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-white"></div>
-                <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-white"></div>
-              </div>
-              <div className="relative w-fit h-fit text-white flex flex-col items-start justify-center px-10 py-5">
-                <div className="flex items-start">
-                  <MapPin className="h-5 w-5 text-primary mt-0.5 mr-3 flex-shrink-0" />
-                  <div>
-                    <h3 className="font-medium">Durrës City Center</h3>
+                    <h3 className="font-medium">Durrës City</h3>
                     <p className="text-sm">
-                      Sheshi Liria, Durrës 2001, Albania
+                      Wemis Agency, Rruga Tema, Durrës 2001
                     </p>
                   </div>
                 </div>
@@ -64,12 +50,12 @@ const ContactPage = () => {
               <div className="relative w-fit h-fit text-white flex flex-col items-start justify-center px-10 py-5">
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-primary mr-3" />
-                  <span>+355 68 409 3623</span>
+                  <span>+355 69 394 6666</span>
                 </div>
 
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 text-primary mr-3" />
-                  <span>reservation@wemis.com</span>
+                  <span>wemiisagency@gmail.com</span>
                 </div>
 
                 <div className="flex items-center">

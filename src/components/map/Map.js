@@ -16,7 +16,7 @@ function Map() {
   return (
     <MapContainer
       className="z-0 h-100"
-      center={[41.4190049, 19.7144345]}
+      center={[41.3281957, 19.4487999]}
       zoom={13}
       scrollWheelZoom={false}
     >
@@ -24,12 +24,7 @@ function Map() {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <Marker position={[41.4190049, 19.7144345]} icon={customMarker}>
-        <Popup>
-          <p>This is our location in Mother Teresa Airport</p>
-        </Popup>
-      </Marker>
-      <Marker position={[41.3148049, 19.4638645]} icon={customMarker}>
+      <Marker position={[41.3281957, 19.4487999]} icon={customMarker}>
         <Popup>
           <p>This is our location in Durr&euml;s</p>
         </Popup>

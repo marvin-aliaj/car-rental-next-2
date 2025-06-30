@@ -78,15 +78,15 @@ export default function Footer() {
             <ul className="space-y-2 text-neutral-400">
               <li className="flex items-start">
                 <i className="fas fa-map-marker-alt mt-1 mr-3"></i>
-                <span>Mother Tereza Airport, Rinas, Albania</span>
+                <span>Wemis Agency, Rruga Tema, Durrës 2001</span>
               </li>
               <li className="flex items-center">
                 <i className="fas fa-phone-alt mr-3"></i>
-                <span>+355 68 409 3623</span>
+                <span>+355 69 394 6666</span>
               </li>
               <li className="flex items-center lowercase">
                 <i className="fas fa-envelope mr-3"></i>
-                <span>reservation@wemis.com</span>
+                <span>wemiisagency@gmail.com</span>
               </li>
               <li className="flex items-center">
                 <i className="fas fa-clock mr-3"></i>

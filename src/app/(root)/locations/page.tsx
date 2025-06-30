@@ -6,23 +6,11 @@ import * as React from "react";
 const LocationsPage = () => {
   const locations = [
     {
-      id: "tirana-airport",
-      name: "Mother Teresa Airport",
-      address: "Rinas, Tirana 1504, Albania",
-      hours: "Open 24/7",
-      phone: "+355 4 238 1600",
-      perks: [
-        "Airport pickup/dropoff",
-        "Free shuttle service",
-        "Express check-in",
-      ],
-    },
-    {
       id: "durres",
       name: "Durrës",
-      address: "Sheshi Liria, Durrës 2001, Albania",
+      address: "Wemis Agency, Rruga Tema, Durrës",
       hours: "Mon-Sun: 6:00 AM - 11:00 PM",
-      phone: "+355 52 238 1600",
+      phone: "+355 69 394 6666",
       perks: ["Downtown location", "Beach proximity", "Long-term discounts"],
     },
   ];
@@ -52,7 +40,7 @@ const LocationsPage = () => {
       <div className="bg-dark py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-white rounded-lg text-center -mt-16 md:-mt-35 relative z-10 p-6">
-            <div className="flex flex-wrap gap-5 justify-center items-center pb-20">
+            <div className="flex flex-wrap gap-10 justify-center items-center pb-20">
               <span>[ Our Locations in Albania ]</span>
               {locations.map((location) => (
                 <div

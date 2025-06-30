@@ -1,6 +1,5 @@
 import Map from "../map";
 import {
-  faPlaneDeparture,
   faUmbrellaBeach,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -16,22 +15,9 @@ export default function OurLocations() {
               Where can you find us
             </h2>
             <p className="text-dark text-lg mb-8">
-              Our locations are close to the largest airport and port in
-              Albania.
+              Our location is close to the largest port in Albania.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link href="/locations">
-                <div className="grid bg-black hover:bg-black/80 hover:cursor-pointer text-white py-3 px-6 rounded-lg transition duration-300">
-                  <div className="text-xs">Find us in</div>
-                  <div className="flex items-center gap-1">
-                    <FontAwesomeIcon
-                      className="align-bottom"
-                      icon={faPlaneDeparture}
-                    />
-                    <div className="text-lg font-semibold">Tirana Airport</div>
-                  </div>
-                </div>
-              </Link>
               <Link href="/locations">
                 <div className="grid bg-black hover:bg-black/80 hover:cursor-pointer text-white py-3 px-6 rounded-lg transition duration-300">
                   <div className="text-xs">Find us in</div>

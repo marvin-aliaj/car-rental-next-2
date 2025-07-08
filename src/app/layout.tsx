@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Oswald } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "sonner";
+import { Analytics } from "@vercel/analytics/next"
 
 const oswald = Oswald({
   variable: "--font-oswald",
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body className={`${oswald.variable}`}>
         <Toaster />
         {children}
+        <Analytics />
       </body>
     </html>
   );
